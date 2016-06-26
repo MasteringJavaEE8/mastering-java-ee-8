@@ -1,0 +1,12 @@
+.metadata/
+RemoteSystemsTempFiles/
+chapter1-helloworld-ear.ear
+*/.project
+*/.settings/
+*/target/
+*/.factorypath
+*/*/.project
+*/*/.settings/
+*/*/target/
+*/*/.factorypath
+*/*/.classpath
