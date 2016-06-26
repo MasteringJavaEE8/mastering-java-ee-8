@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <display-name>chapter1-helloworld-ear</display-name>
+  <module id="chapter1-helloworld-ejb">
+    <ejb>chapter1-helloworld-ejb-0.0.1-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>chapter1-helloworld-webapp-0.0.1-SNAPSHOT.war</web-uri>
+      <context-root>/chapter1-helloworld-webapp</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
