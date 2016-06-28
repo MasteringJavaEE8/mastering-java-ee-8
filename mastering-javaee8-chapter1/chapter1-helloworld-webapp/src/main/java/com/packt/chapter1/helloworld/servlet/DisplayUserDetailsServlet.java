@@ -28,14 +28,8 @@ public class DisplayUserDetailsServlet extends HttpServlet {
 			out.println("<html>");
 			out.println("<head>");
 			out.println("<title>Mastering Java EE 8</title>");
+			out.println("<link rel=\"stylesheet\" href=\"helloworld.css\">");
 			out.println("</head>");
-			out.println("<style type=\"text/css\">");
-			out.println(".container {width: 500px;clear: both;}");
-			out.println("input[type=text], select {width: 100%;padding: 12px 20px;margin: 8px 0;display: inline-block;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;}");
-			out.println("input[type=submit] {width: 100%;background-color: #e27a3f;color: white;padding: 14px 20px;margin: 8px 0;border: none;border-radius: 4px;cursor: pointer;}");
-			out.println("input[type=submit]:hover {background-color: #45a049;} h1 { font-weight:normal; } h2 { font-weight:normal; } h3 { font-weight:normal; }");
-			out.println("div {border-radius: 10px;background-color: #f2f2f2;padding: 20px; margin-left:50px; margin-right:50px }");
-			out.println("</style>");
 			out.println("<body>");
 			out.println("<div align='center'>");
 			out.println("<h1 style=\"color:#e27a3f;\">Wellcome to Mastering Java EE 8 from PACKT Publishing&reg; </h1>");
