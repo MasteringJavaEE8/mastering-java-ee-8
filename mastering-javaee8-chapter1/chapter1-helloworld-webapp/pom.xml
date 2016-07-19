@@ -9,7 +9,6 @@
 		<artifactId>mastering-javaee8-chapter1</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<groupId>com.packt.javaee</groupId>
-		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<build>
 		<plugins>
